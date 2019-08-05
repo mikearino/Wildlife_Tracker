@@ -5,7 +5,7 @@ class CreateSightings < ActiveRecord::Migration[5.1]
       t.column(:lattitude, :integer)
       t.column(:longitutde, :integer)
       t.column(:animal_id, :integer)
-      t.timestamps
+      t.timestamp
     end
   end
 end
