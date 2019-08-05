@@ -5,6 +5,10 @@
   <%= f.text_field :lattitude %>
   <%= f.label :longitude %>
   <%= f.text_field :longitude %>
+
+  <!-- <%= f.label "Region", class: 'control-label'%>
+  <%= f.select(:region_type, options_for_select(['North','East','South','West']))%> -->
+
   <%= f.label :description %>
   <%= f.text_area :description %>
   <p><%= f.submit %></p>
